@@ -305,8 +305,8 @@ body {
 }
 
 .filters button.active {
-    background-color: #c5c5c5;
-    color: #005f6b;
+    background-color: #005f6b;
+    color: white;
 }
 
 .project-list {
