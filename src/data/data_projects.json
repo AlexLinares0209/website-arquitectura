@@ -1,0 +1,139 @@
+[
+    {
+        "id": 1,
+        "title": "Moderna Residencia en la Molina",
+        "shortDescription": "Una fusión perfecta entre la naturaleza y diseño contemporáneo",
+        "images": [
+            "https://plus.unsplash.com/premium_photo-1733306523667-80d5e5668631?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://plus.unsplash.com/premium_photo-1733306523667-80d5e5668631?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://plus.unsplash.com/premium_photo-1733306523667-80d5e5668631?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ],
+        "description": "Este proyecto fue un desafío único, que requería un diseño que respetara la topografía natural del terreno  al tiempo que proporcionaba un espacio de vida moderno y confortable. La solución de diseño implicó la creación de una serie de niveles escalonados que siguen el contorno de la colina, maximizando las vistas y la luz natural. Los materiales clave incluyen piedra de origen local, madera sostenible y grandes paneles de vidrio para crear una fuerte conexión con el exterior. La implementación se centró en la eficiencia energética y la integración de sistemas domóticos para un control óptimo.",
+        "category": "residencial",
+        "details": {
+            "area": "230 m2",
+            "year": "2025",
+            "location": "La Molina, Lima",
+            "materials": "piedra, madera, vidrio"
+        }
+    },
+    {
+        "id": 2,
+        "title": "Moderna Residencia en la Planicie",
+        "images": [
+            "https://images.unsplash.com/photo-1745761320791-5ae142edee8c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://images.unsplash.com/photo-1745761320791-5ae142edee8c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://images.unsplash.com/photo-1745761320791-5ae142edee8c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ],
+        "description": "Este proyecto fue un desafío único, que requería un diseño que respetara la topografía natural del terreno  al tiempo que proporcionaba un espacio de vida moderno y confortable. La solución de diseño implicó la creación de una serie de niveles escalonados que siguen el contorno de la colina, maximizando las vistas y la luz natural. Los materiales clave incluyen piedra de origen local, madera sostenible y grandes paneles de vidrio para crear una fuerte conexión con el exterior. La implementación se centró en la eficiencia energética y la integración de sistemas domóticos para un control óptimo.",
+        "category": "comercial",
+        "details": {
+            "area": "230 m2",
+            "year": "2025",
+            "location": "La Molina, Lima",
+            "materials": "piedra, madera, vidrio"
+        }
+    },
+    {
+        "id": 3,
+        "title": "Dormitorio Moderno",
+        "images": [
+            "https://images.unsplash.com/photo-1667375185982-916aeb9ced63?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://images.unsplash.com/photo-1667375185982-916aeb9ced63?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://images.unsplash.com/photo-1667375185982-916aeb9ced63?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ],
+        "description": "Este proyecto fue un desafío único, que requería un diseño que respetara la topografía natural del terreno  al tiempo que proporcionaba un espacio de vida moderno y confortable. La solución de diseño implicó la creación de una serie de niveles escalonados que siguen el contorno de la colina, maximizando las vistas y la luz natural. Los materiales clave incluyen piedra de origen local, madera sostenible y grandes paneles de vidrio para crear una fuerte conexión con el exterior. La implementación se centró en la eficiencia energética y la integración de sistemas domóticos para un control óptimo.",
+        "category": "renovaciones",
+        "details": {
+            "area": "230 m2",
+            "year": "2025",
+            "location": "La Molina, Lima",
+            "materials": "piedra, madera, vidrio"
+        }
+    },
+    {
+        "id": 4,
+        "title": "Sala de Estar Integrada",
+        "images": [
+            "https://images.unsplash.com/photo-1757524522335-02f88c0b09c8?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://images.unsplash.com/photo-1757524522335-02f88c0b09c8?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://images.unsplash.com/photo-1757524522335-02f88c0b09c8?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ],
+        "description": "Este proyecto fue un desafío único, que requería un diseño que respetara la topografía natural del terreno  al tiempo que proporcionaba un espacio de vida moderno y confortable. La solución de diseño implicó la creación de una serie de niveles escalonados que siguen el contorno de la colina, maximizando las vistas y la luz natural. Los materiales clave incluyen piedra de origen local, madera sostenible y grandes paneles de vidrio para crear una fuerte conexión con el exterior. La implementación se centró en la eficiencia energética y la integración de sistemas domóticos para un control óptimo.",
+        "category": "comercial",
+        "details": {
+            "area": "230 m2",
+            "year": "2025",
+            "location": "La Molina, Lima",
+            "materials": "piedra, madera, vidrio"
+        }
+    },
+    {
+        "id": 5,
+        "title": "Integración Interior-Exterior",
+        "images": [
+            "https://plus.unsplash.com/premium_photo-1725408017639-140906807752?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://plus.unsplash.com/premium_photo-1725408017639-140906807752?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://plus.unsplash.com/premium_photo-1725408017639-140906807752?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ],
+        "description": "Este proyecto fue un desafío único, que requería un diseño que respetara la topografía natural del terreno  al tiempo que proporcionaba un espacio de vida moderno y confortable. La solución de diseño implicó la creación de una serie de niveles escalonados que siguen el contorno de la colina, maximizando las vistas y la luz natural. Los materiales clave incluyen piedra de origen local, madera sostenible y grandes paneles de vidrio para crear una fuerte conexión con el exterior. La implementación se centró en la eficiencia energética y la integración de sistemas domóticos para un control óptimo.",
+        "category": "renovaciones",
+        "details": {
+            "area": "230 m2",
+            "year": "2025",
+            "location": "La Molina, Lima",
+            "materials": "piedra, madera, vidrio"
+        }
+    },
+    {
+        "id": 6,
+        "title": "Cocina Compacta con Comedor Integrado",
+        "images": [
+            "https://plus.unsplash.com/premium_photo-1675616575251-e61b1d69db79?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://plus.unsplash.com/premium_photo-1675616575251-e61b1d69db79?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://plus.unsplash.com/premium_photo-1675616575251-e61b1d69db79?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ],
+        "description": "Este proyecto fue un desafío único, que requería un diseño que respetara la topografía natural del terreno  al tiempo que proporcionaba un espacio de vida moderno y confortable. La solución de diseño implicó la creación de una serie de niveles escalonados que siguen el contorno de la colina, maximizando las vistas y la luz natural. Los materiales clave incluyen piedra de origen local, madera sostenible y grandes paneles de vidrio para crear una fuerte conexión con el exterior. La implementación se centró en la eficiencia energética y la integración de sistemas domóticos para un control óptimo.",
+        "category": "residencial",
+        "details": {
+            "area": "230 m2",
+            "year": "2025",
+            "location": "La Molina, Lima",
+            "materials": "piedra, madera, vidrio"
+        }
+    },
+    {
+        "id": 7,
+        "title": "Baño de Lujo",
+        "images": [
+            "https://plus.unsplash.com/premium_photo-1676823552843-465a2475de73?q=80&w=1165&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://plus.unsplash.com/premium_photo-1676823552843-465a2475de73?q=80&w=1165&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://plus.unsplash.com/premium_photo-1676823552843-465a2475de73?q=80&w=1165&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ],
+        "description": "Este proyecto fue un desafío único, que requería un diseño que respetara la topografía natural del terreno  al tiempo que proporcionaba un espacio de vida moderno y confortable. La solución de diseño implicó la creación de una serie de niveles escalonados que siguen el contorno de la colina, maximizando las vistas y la luz natural. Los materiales clave incluyen piedra de origen local, madera sostenible y grandes paneles de vidrio para crear una fuerte conexión con el exterior. La implementación se centró en la eficiencia energética y la integración de sistemas domóticos para un control óptimo.",
+        "category": "residencial",
+        "details": {
+            "area": "230 m2",
+            "year": "2025",
+            "location": "La Molina, Lima",
+            "materials": "piedra, madera, vidrio"
+        }
+    },
+    {
+        "id": 8,
+        "title": "Espacio Social Abierto",
+        "images": [
+            "https://images.unsplash.com/photo-1448630360428-65456885c650?q=80&w=1167&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://images.unsplash.com/photo-1448630360428-65456885c650?q=80&w=1167&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://images.unsplash.com/photo-1448630360428-65456885c650?q=80&w=1167&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ],
+        "description": "Este proyecto fue un desafío único, que requería un diseño que respetara la topografía natural del terreno  al tiempo que proporcionaba un espacio de vida moderno y confortable. La solución de diseño implicó la creación de una serie de niveles escalonados que siguen el contorno de la colina, maximizando las vistas y la luz natural. Los materiales clave incluyen piedra de origen local, madera sostenible y grandes paneles de vidrio para crear una fuerte conexión con el exterior. La implementación se centró en la eficiencia energética y la integración de sistemas domóticos para un control óptimo.",
+        "category": "residencial",
+        "details": {
+            "area": "230 m2",
+            "year": "2025",
+            "location": "La Molina, Lima",
+            "materials": "piedra, madera, vidrio"
+        }
+    }
+]

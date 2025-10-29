@@ -1,0 +1,787 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Exo", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    *outline: 1px solid red;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+body {
+    background-color: white;
+}
+
+.header {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 1rem 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+    position: relative;
+}
+
+.logo span {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    color: black;
+}
+
+/* ========================================
+   NAVBAR STYLES - BASE MÓVIL (MENÚ LATERAL)
+======================================== */
+
+/* Navbar móvil - menú lateral */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    z-index: 2000;
+    transition: left 0.3s ease;
+    overflow-y: auto;
+    padding-top: 4rem;
+}
+
+.navbar.active {
+    left: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.navbar li:last-child {
+    border-bottom: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    display: block;
+    padding: 1.2rem 2rem;
+    position: relative;
+}
+
+.navbar a:hover {
+    color: #005f6b;
+    background-color: #f8f9fa;
+    padding-left: 2.5rem;
+}
+
+/* ========================================
+   MENÚ HAMBURGUESA (MOBILE)
+======================================== */
+
+.menu-toggle {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    z-index: 2001;
+    position: relative;
+}
+
+.menu-toggle span {
+    width: 25px;
+    height: 3px;
+    background-color: #1a1a1a;
+    transition: all 0.3s ease;
+    border-radius: 2px;
+}
+
+
+/* Overlay oscuro cuando el menú está abierto */
+.navbar::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s;
+    z-index: -1;
+}
+
+.navbar.active::before {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Home */
+
+.hero {
+    background-image: url("../src/assets/images/hero/sanju-pandita-S-7g_8S8cec-unsplash.webp");
+    background-size: cover;
+    background-position: center top;
+    /* Ajusta según tu imagen */
+    background-repeat: no-repeat;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.hero-container {
+    position: relative;
+    z-index: 2;
+    color: white;
+    padding: 0 1.5rem;
+    max-width: 800px;
+}
+
+.hero .hero-container h1 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: .5rem;
+}
+
+.hero .hero-container p {
+    font-size: .9rem;
+    margin-bottom: 1rem;
+}
+
+.see-projects {
+    background-color: #005f6b;
+    color: white;
+    font-weight: 600;
+    padding: .5rem 1rem;
+    border-radius: 8px;
+    width: fit-content;
+    transition: all .3s ease-in;
+    display: inline-block;
+}
+
+.see-projects:hover {
+    opacity: .9;
+}
+
+/* about */
+
+.aboutMe {
+
+    padding: .5rem 1.5rem 0 1.5rem;
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    ul {
+        padding: 1rem 0;
+
+        li {
+            margin-bottom: .5rem;
+            color: #505050;
+            font-size: .9rem;
+        }
+
+    }
+
+    section {
+        padding: 1rem 0;
+        color: #505050;
+        font-size: .9rem;
+
+        h3 {
+            font-size: 1.2rem;
+            margin-bottom: .5rem;
+        }
+
+        ul {
+            padding: 0;
+        }
+
+    }
+
+}
+
+.image-about-me {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+/* projects */
+
+.title-filters-container {
+
+    padding: .5rem 1.5rem 0 1.5rem;
+
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+.filters {
+    display: flex;
+    gap: .5rem;
+    margin: 1rem 0;
+
+    /* pruebas */
+    overflow-x: auto;
+    overflow-y: hidden;
+    /* Ocultar scrollbar pero mantener funcionalidad */
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE/Edge */
+    /* Scroll suave */
+    scroll-behavior: smooth;
+    /* Opcional: efecto de desvanecimiento en los bordes */
+    -webkit-overflow-scrolling: touch;
+    /* iOS smooth scroll */
+
+}
+
+.filters::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari y Opera */
+}
+
+.filters button {
+    background-color: #e5e7eb;
+    color: #28282a;
+    padding: .5rem 1rem;
+    transition: all .3s ease;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: .7rem;
+    white-space: nowrap;
+    /* ← Añade esto */
+    flex-shrink: 0;
+    /* ← Añade esto */
+}
+
+.filters button:hover {
+    background-color: #d1d1d1;
+    color: #28282a;
+}
+
+.filters button.active {
+    background-color: #c5c5c5;
+    color: #005f6b;
+}
+
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.project-list img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.project-top-info {
+    padding: .5rem 1.5rem 0 1.5rem;
+}
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    font-size: .8rem;
+}
+
+.breadcrumb .fa-chevron-right {
+    font-size: .6rem;
+}
+
+.breadcrumb-one {
+    color: #505050;
+    cursor: pointer;
+}
+
+.breadcrumb-two {
+    color: #505050;
+    cursor: default;
+}
+
+.breadcrumb span:hover {
+    text-decoration: underline;
+}
+
+.project-top-info h2 {
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.project-top-info p {
+    color: #28282a;
+    font-size: .9rem;
+}
+
+.project-images {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+    padding: 1rem 1.5rem;
+}
+
+/*
+.project-images img:first-child {
+    grid-column: 1 / 4;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+*/
+
+.project-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.project-details-container {
+    padding: 0 1.5rem;
+
+    p {
+        font-size: .9rem;
+    }
+
+}
+
+.project-details {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 2rem 0;
+}
+
+.project-details .detail-item {
+    padding: 1.5rem 0;
+    border-top: 1px solid #e0e0e0;
+    font-size: .9rem;
+}
+
+/* contact */
+
+.contact {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    *margin-top: 2rem;
+    padding: .5rem 1.5rem 0 1.5rem;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+
+    label {
+        font-size: .6rem;
+    }
+
+}
+
+.input-group input,
+textarea {
+    padding: .8rem .5rem;
+    border: none;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    margin-top: .5rem;
+}
+
+.input-group input::placeholder,
+textarea::placeholder {
+    font-size: .8rem;
+}
+
+.contact form button {
+    background-color: #005f6b;
+    color: white;
+    font-weight: 600;
+    padding: .5rem 2rem;
+    border-radius: 8px;
+    width: fit-content;
+    transition: all .3s ease-in;
+    border: none;
+    cursor: pointer;
+    font-size: .9rem;
+}
+
+.contact-info {
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    ul li {
+        margin: .8rem 0;
+
+        i {
+            color: #005f6b;
+        }
+    }
+
+    span {
+        font-size: .9rem;
+    }
+
+}
+
+.map-container {
+    margin-top: 1rem;
+
+    iframe {
+        width: 100%;
+    }
+
+}
+
+/* footer */
+
+.footer {
+    text-align: center;
+    padding: 2rem 0;
+
+    ul {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+
+        li a {
+            color: black;
+
+            i {
+                font-size: 1.5rem;
+                margin-bottom: .5rem;
+            }
+        }
+    }
+
+    p {
+        font-size: .9rem;
+    }
+
+}
+
+
+/* Desde 768px hacia arriba (min-width) */
+@media (min-width: 768px) {
+
+    /* HEADER */
+
+    
+
+    .header-container {
+        padding: 0 4rem;
+    }
+
+    .logo span {
+        font-size: 1.2rem;
+    }
+
+    /* Ocultar botón hamburguesa */
+    .menu-toggle {
+        display: none;
+    }
+
+    /* Navbar desktop */
+    .navbar {
+        position: static;
+        width: auto;
+        height: auto;
+        background-color: transparent;
+        z-index: auto;
+        transition: none;
+        overflow-y: visible;
+        padding-top: 0;
+    }
+
+    .navbar::before {
+        display: none;
+    }
+
+    .navbar ul {
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+
+    .navbar li {
+        border-bottom: none;
+    }
+
+    .navbar a {
+        padding: 0.5rem 0;
+        font-size: 1rem;
+    }
+
+    .navbar a:hover {
+        background-color: transparent;
+        padding-left: 0;
+    }
+
+    /* Línea inferior en hover (solo desktop) */
+    .navbar a::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: #005f6b;
+        transition: width 0.3s ease;
+    }
+
+    .navbar a:hover::after {
+        width: 100%;
+    }
+
+    /* HERO */
+    .hero {
+        background-position: center center;
+        min-height: 100vh;
+        justify-content: flex-start;
+    }
+
+    .hero-container {
+        padding: 0 4rem;
+    }
+
+    .hero .hero-container h1 {
+        font-size: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    .hero .hero-container p {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+
+    .see-projects {
+        padding: .8rem 2rem;
+        font-size: 1rem;
+    }
+
+    /* ABOUT */
+    .aboutMe {
+        padding: 2rem 4rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        align-items: start;
+    }
+
+    .aboutMe ul {
+        padding: 0;
+    }
+
+    .aboutMe h2 {
+        font-size: 3rem;
+        grid-column: 1 / -1;
+    }
+
+    .aboutMe ul li {
+        font-size: 1rem;
+    }
+
+    .aboutMe section {
+        font-size: 1rem;
+        padding: 0;
+    }
+
+    .aboutMe section h3 {
+        font-size: 1.5rem;
+    }
+
+    .image-about-me {
+        height: 700px;
+    }
+
+    /* PROJECTS */
+    .title-filters-container {
+        padding: 1.5rem 4rem 0 4rem;
+    }
+
+    .title-filters-container h2 {
+        font-size: 3rem;
+    }
+
+    .filters {
+        flex-wrap: wrap;
+        overflow-x: visible;
+    }
+
+    .filters button {
+        font-size: .9rem;
+        padding: .7rem 1.5rem;
+    }
+
+    .project-list {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        padding: 0;
+        margin-bottom: 2rem;
+    }
+
+    /* PROJECT DETAIL */
+    .project-top-info {
+        padding: 2rem 3rem 0 4rem;
+    }
+
+    .breadcrumb {
+        font-size: 1rem;
+    }
+
+    .project-top-info h2 {
+        font-size: 3rem;
+        margin-top: 1.5rem;
+    }
+
+    .project-top-info p {
+        font-size: 1.1rem;
+        max-width: 900px;
+    }
+
+    .project-images {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 2rem 4rem;
+    }
+
+    .project-images img:nth-child(1) {
+        grid-column: span 2 / span 2;
+        grid-row: 1 / 3;
+    }
+
+    .project-images img:nth-child(2) {
+        grid-column-start: 3;
+    }
+
+    .project-images img:nth-child(4) {
+        grid-column-start: 3;
+        grid-row-start: 3;
+    }
+
+    .project-details-container {
+        padding: 0 4rem;
+    }
+
+    .project-details-container p {
+        font-size: 1rem;
+    }
+
+    .project-details {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+
+    .project-details .detail-item {
+        padding: 0;
+        border-top: none;
+        font-size: 1rem;
+    }
+
+    /* CONTACT */
+    .contact {
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+        padding: 2rem 4rem;
+    }
+
+    .contact h2 {
+        font-size: 3rem;
+        grid-column: 1 / -1;
+    }
+
+    .input-group label {
+        font-size: .8rem;
+    }
+
+    .input-group input,
+    textarea {
+        padding: 1rem .8rem;
+    }
+
+    .input-group input::placeholder,
+    textarea::placeholder {
+        font-size: 1rem;
+    }
+
+    .contact form button {
+        padding: .8rem 3rem;
+        font-size: 1rem;
+    }
+
+    .contact-info h3 {
+        font-size: 2rem;
+    }
+
+    .contact-info span {
+        font-size: 1rem;
+    }
+
+    /* FOOTER */
+    .footer {
+        padding: 3rem 0;
+    }
+
+    .footer ul li a i {
+        font-size: 2rem;
+    }
+
+    .footer p {
+        font-size: 1rem;
+    }
+
+}
