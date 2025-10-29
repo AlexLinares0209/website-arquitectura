@@ -3,10 +3,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Home from './Pages/Home'
 import About from './Pages/About'
 import Projects from './Pages/Projects'
-import Service from './Pages/Service'
 import Contact from './Pages/Contact'
 import Header from './Components/layout/Header'
 import ProjectDetail from './Pages/ProjectDetail'
+import Services from './Pages/Services'
 
 function App() {
 
@@ -22,7 +22,7 @@ function App() {
                     <Route path='/projects' element={<Projects />} />
                     <Route path="/projects/:id" element={<ProjectDetail />} />
                     <Route path="/projects/:category" element={<ProjectDetail />} />
-                    <Route path='/service' element={<Service />} />
+                    <Route path='/services' element={<Services />} />
                     <Route path='/contact' element={<Contact />} />
                 </Routes>
             </BrowserRouter>

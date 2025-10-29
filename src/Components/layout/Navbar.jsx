@@ -6,6 +6,7 @@ const Navbar = ({ isMenuOpen, closeMenu }) => {
         { to: "/", label: "inicio" },
         { to: "/about", label: "sobre mí" },
         { to: "/projects", label: "proyectos" },
+        { to: "/services", label: "servicios" },
         { to: "/contact", label: "contacto" }
     ]
 
