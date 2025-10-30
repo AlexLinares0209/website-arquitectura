@@ -1,4 +1,4 @@
-import imageAbout from "../assets/images/about/image_aboutme.jpg";
+import imageAbout from "../assets/images/about/imagen-aboutme-1920x1498.webp";
 import Footer from "../Components/layout/Footer";
 
 const About = () => {
